@@ -1,9 +1,35 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="widht=device-widht, initial-scale=1">
+=======
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        <?php echo $title; ?>
+    </title>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107382942-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-107382942-1');
+
+    </script>
+>>>>>>> df400abeed2f796a88308b2e96a47a31461a8f4e
 
     <title>Meu Corpo Em Forma</title>
     
@@ -23,11 +49,26 @@
         };
         gtag('js', new Date());
 
+<<<<<<< HEAD
         gtag('config', 'UA-107382942-1');
     </script>
+=======
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="<?= base_url(" assets/ckeditor/ckeditor.js ") ?>"></script>
+>>>>>>> df400abeed2f796a88308b2e96a47a31461a8f4e
 
 </head>
+
 <body>
+<<<<<<< HEAD
     <!-- HEADER -->
     <div class="container-fluid" style="position: relative">
         <div class="row">
@@ -60,3 +101,8 @@
             </div>
         </div>
     </div>
+=======
+    <div class="container">
+        <?php echo warning(); ?>
+        <!-- header.php end -->
+>>>>>>> df400abeed2f796a88308b2e96a47a31461a8f4e
