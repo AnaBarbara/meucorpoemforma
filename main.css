@@ -1,0 +1,138 @@
+/*CLASSES AUXILIARES*/
+.no-padding-lateral {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.no-padding-left {
+    padding-left: 0 !important;
+}
+
+.no-padding-right {
+    padding-right: 0 !important;
+}
+
+.display-none {
+    display: none;
+}
+
+/*HEADER*/
+#box-logo {
+    position: absolute;
+    z-index: 9999999;
+    padding-top: 45px;
+    padding-left: 45px;
+}
+
+.menu-principal{
+	background-color: #6DB80D;
+}
+
+#saude, #nutricao{
+	color: #fff;
+}
+
+.menu-principal > div > div:nth-child(1) > ul > li > a{
+	text-decoration: none;
+}
+
+.menu-principal > div > div > ul{
+	margin-bottom: 12px;
+    margin-top: 13px;
+}
+
+.menu-principal > div{
+	height: 55px;
+}
+
+#nutricao{
+    padding-left: 50px;
+}
+
+.icons{
+	margin-right: 20px;
+}
+
+/*HOME*/
+#body{
+	background-color: #FAFAFA;
+	padding-bottom: 40px;
+}
+
+#box-info{
+	background-color: #fff;
+	margin-top: 50px;
+	height: 100%;
+}
+
+.siga-nos{
+	margin-top: 0px !important;
+}
+
+.tema{
+	margin-top: 15px;
+}
+
+#box-info > div > div > div.col-7 > p{
+	font-size: 0.7rem !important;
+}
+
+.titulo{
+	color: #6DB80D;
+}
+
+/*FOOTER*/
+.footer{
+	background-color: #1A1A1A;
+}
+
+#sobre{
+	color: #589110;
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.submenu{
+	color: #A0C670;
+	text-decoration: none;
+}
+
+.footer > div:nth-child(2) > div > ul > li{
+	padding-right: 20px;
+    border-left: 2px solid #A0C670;
+    padding-left: 20px;
+}
+
+.submenu:hover{
+	color: #A0C670;
+	text-decoration: none;
+}
+
+.termos{
+	font-size: 0.7rem !important;
+	color: #fff;
+}
+
+.footer > div:nth-child(3) > div > ul{
+	margin-top: 30px;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
